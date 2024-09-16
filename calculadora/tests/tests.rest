@@ -1,0 +1,12 @@
+### arquivo: tests/tests.rest
+
+
+### teste de API calculadora
+POST http://localhost:40000/calculadora HTTP/1.1
+content-type: application/json
+
+{
+    "num1": 1,
+    "num2": 1,
+    "operacao": "+"
+}
